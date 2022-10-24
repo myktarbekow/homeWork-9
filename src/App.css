@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.Container {
+  margin: 0 auto;
+
+  width: 500px;
+  height: 800px;
+  
+}
+
+.Info {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  border: 2px solid brown;
+  outline: none;
+  margin-top: 10px;
+}
+.Button {
+  padding: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: brown;
+  border: 2px solid brown;
+  color: white;
+}
+
+.container-for-info {
+  display: flex;
+
+  width: 100%;
+  margin-top: 20px;
+}
+.title {
+  width: 40%;
+
+  padding: 10px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: flex-start;
+  color: brown;
+  font-size: 20px;
+}
+.button2 {
+  width: 15%;
+
+  padding: 10px;
+  border: none;
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+}
